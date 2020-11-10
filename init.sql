@@ -55,4 +55,4 @@ CREATE TABLE public."subscription" (
 	CONSTRAINT subscription_pkey PRIMARY KEY (id),
 	CONSTRAINT subscription_requestor_fkey FOREIGN KEY (requestor) REFERENCES userprofile(email),
 	CONSTRAINT subscription_target_fkey FOREIGN KEY (target) REFERENCES userprofile(email)
-);
+);aaaaa
