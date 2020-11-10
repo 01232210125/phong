@@ -38,7 +38,7 @@ func TestCreateReceiveUpdate(t *testing.T) {
 		},
 		{
 			name:   "Success",
-			sender: "john@example",
+			sender: "john@example",s
 			text:   "Hello World! kate@example",
 			expectedResult: &models.SendUpdateEmailResponse{
 				Success:    true,
